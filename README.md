@@ -13,7 +13,7 @@ They have contracted a consulting company to understand the factors on w hich th
 
 - Which variables are significant in predicting the demand for shared bikes.
 - How well those variables describe the bike demands
-- 
+
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
 ## Business Goals
