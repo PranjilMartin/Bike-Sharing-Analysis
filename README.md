@@ -21,3 +21,50 @@ Based on various meteorological surveys and people's styles, the service provide
 The company want to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
 
+## ⏳ **DataSet** 
+
+1. Bike Sharing Dataset
+
+2. Assignment - Data Dictionary
+
+
+## 💻 **Technologies Used**
+
+ - Python - version 3.12.4
+ - Matplotlib - version 3.10.0
+ - Numpy - version 1.26.4
+ - Pandas - version 2.2.3
+ - Seaborn - version 0.13.2
+ - Statsmodels - version 0.14.4
+ - Scikit-Learn - version 1.6.1
+
+## 📃**Approach**
+
+ - Step 1: Import Necessary Libraries
+ - Step 2: Load the Data and Understanding the Data
+ - Step 3: Data Cleaning and Missing Value Chec
+ - Step 4: Segmentation of Columns
+ - Step 5: Exploratory Data Analysis
+ - Step 6: Data Preparation Steps -- Dummy Variable Creation (One Hot Encoding)
+ - Step 7: Train-Test Split
+ - Step 8: Feature Scaling (Min-Max Scaling)
+ - Step 9: Building the Initial Linear Model (Model 0)
+ - Step 10: Feature Selection (Using RFE and Manual Selection Methods)
+ - Step 11: Check and Build the Models Using Selected Features
+ - Step 12: Residual Analysis of the Train Data
+ - Step 13: Making Predictions Using the Final Linear Model
+ - Step 14: Steps for Further Model Refinement and Optimization
+ - Step 15: Model Evaluation
+
+## 💡 **Conclusion**
+
+The equation of the best fit line is given by:
+
+cnt = 0.1944 + 0.2499 x year - 0.0794 x holiday + 0.4242 x Temperature - 0.1367 x spring + 0.1026 x winter - 0.0667 x december + 0.0433 x may - 0.0849 x november + 0.0648 x september - 0.0374 x Tuesday - 0.0831 x cloudy - 0.2716 x light_rain
+
+- Analysis is been done both recursive feature elimination and Mannual elimination
+- 20 features has been selected using recursive feature elimination algorithium
+- The bike demand is influenced by the feature year, holiday , temperature , spring, winter, light_rain
+- In final Model we have seen 84% of variability in training data and 79% of variability in testing data
+
+
