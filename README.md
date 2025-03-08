@@ -1,7 +1,7 @@
 # Bike-Sharing-Analysis
 
 
-## **Problem Statement**
+## 🗒️ **Problem Statement**
 
 A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
@@ -16,6 +16,18 @@ They have contracted a consulting company to understand the factors on w hich th
 
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
-## Business Goals
+## 🎯 Business Goals
 
 The company want to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
+
+## ⏳ DataSet 
+
+This dataset has 3 files as explained below: 
+
+
+1. 'application_data.csv'  contains all the information of the client at the time of application.
+    The data is about whether ** a client has payment difficulties **.
+
+2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data on whether the previous application had been ** Approved, Cancelled, Refused or Unused offer.**
+
+3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
